@@ -1,0 +1,79 @@
+                                  /*Стили products.php*/
+h1 {
+    text-align: center;
+}
+
+.img_block {
+   display: flex;
+   justify-content: space-around;
+}
+
+.img_block > div {
+    width: 105px;
+}
+
+.img_block > div > a {
+    display: block;
+}
+
+.img_block > div > h3 {
+    font-size: 12px;
+}
+
+.img_block > div > a > img {
+    width: 100px;
+}
+
+.product img {
+    display: block;
+    margin: 50px auto;
+    border: 1px solid DarkGrey;
+}
+                                    /*Стили product.php*/
+.product h3, .product p {
+    text-align: center;
+
+}
+
+.product a {
+    display: block;
+    text-align: center;
+}
+
+.all_feedback {
+    margin-left: 50px;    
+}
+
+form, h2 {
+    margin-left: 100px;
+}
+                                      /*Стили basket.php*/
+.basket {
+    margin-left: 100px;
+}
+
+.basket img {
+    width: 100px;
+}
+
+.basket h3 {
+    font-size: 15px;
+    margin: 0;
+    line-height: 10px;
+}
+
+.basket p {
+    font-size: 10px;
+    margin: 0;
+    line-height: 1px;
+}
+
+.basket a {
+    font-size: 10px;
+    margin: 0;
+    line-height: 1px;
+}
+                                     /*Стили auth.php*/
+.welcom a{
+    text-align: center; 
+}
